@@ -15,8 +15,8 @@ base_dir = base_dir = Path(__file__).parent.parent
 # Source creds_audits.log & cmd_audits.log file path.
 server_key = base_dir / 'Honeypot' / 'server.key'
 
-creds_audits_log_local_file_path = base_dir / 'Honeypot' / 'log_files' / 'creds_audits.log'
-cmd_audits_log_local_file_path = base_dir / 'Honeypot' / 'log_files' / 'cmd_audits.log'
+creds_audits_log_local_file_path = base_dir / 'Honeypot' / 'creds_audits.log'
+cmd_audits_log_local_file_path = base_dir / 'Honeypot' / 'cmd_audits.log'
 
 # SSH Server Host Key.
 host_key = paramiko.RSAKey(filename=server_key)
